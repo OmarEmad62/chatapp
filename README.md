@@ -21,8 +21,8 @@ A real-time full-stack chat application built with **MERN**, **Socket.io**, **Ta
 
 ```
 .
-├── client      # React frontend
-├── server      # Node.js backend
+├── frontend      # React frontend
+├── backend      # Node.js backend
 ├── .env        # Environment variables
 ├── README.md
 ```
@@ -41,7 +41,7 @@ cd realtime-chat-app
 ### 2. Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 ```
 
@@ -69,7 +69,7 @@ npm start
 ### 3. Frontend Setup
 
 ```bash
-cd ../client
+cd ../frontend
 npm install
 npm run build
 npm start
