@@ -45,7 +45,7 @@ cd server
 npm install
 ```
 
-Create a `.env` file in the `server` directory:
+Create a `.env` file in the `backend` directory:
 
 ```env
 PORT=5000
@@ -74,14 +74,18 @@ npm install
 npm run build
 npm start
 ```
+Create a `.env` file in the `frontend` directory:
 
+```env
+VITE_API_BASE_URL=http://localhost:5000
+```
 ---
-
-🌍 Live Demo
-(Provide your deployed app link here)
 
 ## 📸 Screenshots
 
-(Add some cool UI screenshots of your app here)
+![Screenshot (1205)](https://github.com/user-attachments/assets/2d174b55-2cc6-45cb-8ef5-8a8e3fa2ffd3)
+![Screenshot (1202)](https://github.com/user-attachments/assets/1b4e7aae-1f7b-4172-9549-1b9a9a70feba)
+![Screenshot (1204)](https://github.com/user-attachments/assets/89a9952d-2772-479f-8e2b-6b58abb60625)
+
 
 
